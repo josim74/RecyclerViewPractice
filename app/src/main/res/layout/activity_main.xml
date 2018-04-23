@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="josim74.github.com.employeeapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AmirKhan" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="amirkhan@gmail.com" />
+
+    <TextView
+        android:id="@+id/tvDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hero" />
+
+    <TextView
+        android:id="@+id/tvphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0099586848" />
+
+    <TextView
+        android:id="@+id/tvHouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House#80" />
+
+    <TextView
+        android:id="@+id/tvRoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Road#24" />
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mumbai" />
+
+    <TextView
+        android:id="@+id/tvZip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="993060" />
+
+    <android.support.v7.widget.RecyclerView
+        android:scrollbars="vertical"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
